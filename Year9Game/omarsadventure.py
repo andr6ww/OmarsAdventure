@@ -23,7 +23,7 @@ def invalid(rand):
 
 titletext = termcolor.colored ("Omar's Adventure",'red',attrs = ['bold','underline'])
 print (border)
-print (f"Welcome to \n{titletext}\n(Type \"t\" for tutorial or \"play\" to start playing!)")
+print (f"Welcome to \n{titletext}\n(Type \"tutorial\" for tutorial or \"play\" to start playing!)")
 
 
 correct1 = False
@@ -94,10 +94,72 @@ while not correct3:
     else: 
         print (border)
         invalid(random.randint(1,3))
+
+correct6 = False
+print (border)
+print ("Tonight your dad tells you that you're eating your favourite food. He also says that he wants to invite Mrs. Rogers but you're afraid that she'll ruin the mood of the dinner. Should you still attend?\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to eat dinner when Mrs. Rogers is there.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to attend the dinner normally and be your playful self.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" attend the dinner but stay quiet and respectful, having less fun.")
+while not correct6:
+    choice3 = input()
+    if "1" in choice3:
+        print (border)
+        print ("Mrs. Rogers finds out why you skipped dinner and walks out in the middle of dinner.\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to eat dinner when Mrs. Rogers is there.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to attend the dinner normally and be your playful self.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" attend the dinner but stay quiet and respectful, having less fun.")
+    elif "2" in choice3:
+        print (border)
+        print ("Mrs. Rogers stays for the dinner but is weirded out by your behaviour.\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to eat dinner when Mrs. Rogers is there.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to attend the dinner normally and be your playful self.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" attend the dinner but stay quiet and respectful, having less fun.")
+
+    elif "3" in choice3:
+        print (border)
+        print ("She enjoyed the meal.\nSometimes we have to take sacrifices for people.\nInstead of being your usual self, you stayed respectful and tried to make Mrs. Rogers as comfortable as possible!\n\nType \"next\" to continue!")
+        correct6 = True
+        correct7 = False
+        choice4 = input()
+        while not correct6:
+            if "n" in choice4.lower():
+                correct7 = True
+            else:
+                print (border)
+                invalid(random.randint(1,3))
+        
+    else:
+        print (border)
+        invalid(random.randint(1,3))
+
+correct8 = False
+print (border)
+print ("Mrs. Rogers seems to be warming up to you and your family but one night during dinner, she says something really mean about your culture. What should you do?\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to stay quiet and let your parents deal with in case she gets mad.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to insult her so that she feels bad and leanrs from her mistake.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" take it upon yourself to positively teach her.")
+while not correct8:
+    choice5 = input()
+    if "1" in choice5:
+        print (border)
+        print ("You spooked her and she stopped coming to dinner.\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to eat dinner when Mrs. Rogers is there.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to attend the dinner normally and be your playful self.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" attend the dinner but stay quiet and respectful, having less fun.")
+    elif "2" in choice5:
+        print (border)
+        print ("Your parents politely explained to Mrs. Rogers why what she just said was wrong. You made a good choice, but not the best one.\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to eat dinner when Mrs. Rogers is there.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to attend the dinner normally and be your playful self.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" attend the dinner but stay quiet and respectful, having less fun.")
+
+    elif "3" in choice5:
+        print (border)
+        print ("She apologized to you and promised to be more careful in the future.\nSince, Mrs. Rogers has been warming up to you lately, there's no point in being a bystander!\nPolitely standing up for your culture was the right choice!\n\nType \"next\" to continue!")
+        correct8 = True
+        correct9 = False
+        choice6 = input()
+        while not correct8:
+            if "n" in choice6.lower():
+                correct9 = True
+            else:
+                print (border)
+                invalid(random.randint(1,3))
+        
+    else:
+        print (border)
+        invalid(random.randint(1,3))
+
+
+
+
         
 
 
-    
+        
 
 
 
