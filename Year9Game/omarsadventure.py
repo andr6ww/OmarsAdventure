@@ -40,8 +40,8 @@ while not correct1:
 
     if "t" in tutorialinput.lower():
         print (border)
-        helptext = termcolor.colored ("Remember that you can ALWAYS TYPE \"HELP\" during the game to pop this text back up!", 'red', attrs = ['bold'])
-        print (f"To play this game you must enter commands when asked! \nFor example, if I ask \"Do you like Omar\" a proper command would be to enter \"yes\". \nDon't worry, if enter an invalid command i'll let you know!")        
+
+        print (f"To play this game you must enter commands when asked! \nFor example, if I ask \"Do you like Omar\" a proper command would be to enter \"yes\". \nDon't worry, if enter an invalid command i'll let you know!\n\nHere is a list of all the possible commands: \n\nyes\nno\nnext\n1\n2\n3\n\n\nType \"play\" to start playing the game.")       
         correct1 = True
         correct2 = False
         while not correct2:
