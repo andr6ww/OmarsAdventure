@@ -192,19 +192,18 @@ while not correct3:
                         correct97 = True
                         correct96 = False
                         print (border)
-                        print ("Daniel has been mean to you ever since the first day of school. One day, you go to the bathroom and notice that he's locked outside of the school. He looks kind of upset, should you still help him if he's really mean?\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to go get a teacher to open the door for him.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to attend the dinner normally and be your playful self.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" attend the dinner but stay quiet and respectful, having less fun.")
+                        print ("Daniel has been mean to you ever since the first day of school. One day, you go to the bathroom and notice that he's locked outside of the \nschool. He looks kind of upset and it's pretty cold outside, should you still help him if he's really mean?\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to go get a teacher to open the door for him.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to try and pry open the door yourself.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" to leave him oustide in the cold.")
                         while not correct96:
                             choice97 = input()
-                            if "1" in choice97:
+                            if "3" in choice97:
                                 print (border)
-                                print ("You tried to ignore him but he followed you all the way to the classroom...\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to eat dinner when Mrs. Rogers is there.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to attend the dinner normally and be your playful self.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" attend the dinner but stay quiet and respectful, having less fun.")
+                                print ("Leaving him outside made youf feel bad for the rest of the day. \n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to go get a teacher to open the door for him.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to try and pry open the door yourself.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" to leave him oustide in the cold.")                            
                             elif "2" in choice97:
                                 print (border)
-                                print ("Mrs. Rogers stays for the dinner but is weirded out by your behaviour.\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to eat dinner when Mrs. Rogers is there.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to attend the dinner normally and be your playful self.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" attend the dinner but stay quiet and respectful, having less fun.")
-
-                            elif "3" in choice97:
+                                print ("You tried for 5 minutes but weren't strong enough to open the door. Daniel laughed at you.\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to go get a teacher to open the door for him.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to try and pry open the door yourself.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" to leave him oustide in the cold.")
+                            elif "1" in choice97:
                                 print (border)
-                                print ("She enjoyed the meal.\nSometimes we have to take sacrifices for people.\nInstead of being your usual self, you stayed respectful and tried to make Mrs. Rogers as comfortable as possible!\n\nType \"next\" to continue!")
+                                print ("A teacher came to let Daniel back in.\nYou chose the right option!\nAs long as you don't think they'll hurt you, you should always try to help people!\n\nType \"next\" to continue!")
                                 correct96 = True
                                 correct95 = False
                                 while not correct95:
@@ -213,19 +212,19 @@ while not correct3:
                                         correct95 = True
                                         correct94 = False
                                         print (border)
-                                        print ("Mrs. Rogers seems to be warming up to you and your family but one night during dinner, she says something really mean about your culture. What should you do?\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to stay quiet and let your parents deal with in case she gets mad.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to insult her so that she feels bad and leanrs from her mistake.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" take it upon yourself to positively teach her.")
+                                        print ("Ever since you helped get the teacher to open the door, Daniel has been extra mean for some reason. One day you and him get lost on the \nsubway. You need to find the way home but bringing him with you might stop you from doing that. What should you do?\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to let him come with you.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" Tell him wrong directions and get him lost to get back at him.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" agree to walk together, even if he'll be really mean.")
                                         while not correct94:
                                             choice95 = input()
                                             if "1" in choice95:
                                                 print (border)
-                                                print ("You spooked her and she stopped coming to dinner.\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to eat dinner when Mrs. Rogers is there.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to attend the dinner normally and be your playful self.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" attend the dinner but stay quiet and respectful, having less fun.")
+                                                print ("What would your parents think if you left him!\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to let him come with you.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" Tell him wrong directions and get him lost to get back at him.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" agree to walk together, even if he'll be really mean.")
                                             elif "2" in choice95:
                                                 print (border)
-                                                print ("Your parents politely explained to Mrs. Rogers why what she just said was wrong. You made a good choice, but not the best one.\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to eat dinner when Mrs. Rogers is there.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" to attend the dinner normally and be your playful self.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" attend the dinner but stay quiet and respectful, having less fun.")
+                                                print ("Even though he's mean to you doesn't mean you should put him in danger.\n\nType \"", termcolor.colored ("1",'red',attrs = ['bold']), "\" to refuse to let him come with you.\nType \"", termcolor.colored ("2",'red',attrs = ['bold']),"\" Tell him wrong directions and get him lost to get back at him.\nType \"", termcolor.colored ("3",'red',attrs = ['bold']),"\" agree to walk together, even if he'll be really mean.")
 
                                             elif "3" in choice95:
                                                 print (border)
-                                                print ("She apologized to you and promised to be more careful in the future.\nSince, Mrs. Rogers has been warming up to you lately, there's no point in being a bystander!\nPolitely standing up for your culture was the right choice!\n\nType \"next\" to continue!")
+                                                print ("You walked with him and he stayed surprisingly quiet.\nWhen people are lost and afraid, that's when they need help the most.\nType \"next\" to continue!")
                                                 correct94 = True
                                                 correct93 = False
                                                 while not correct93:
